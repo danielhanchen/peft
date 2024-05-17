@@ -42,7 +42,7 @@ from .config import PeftConfig
 from .tuners import (
     AdaLoraModel,
     AdaptionPromptModel,
-    BOFTModel,
+    # BOFTModel,
     IA3Model,
     LNTuningModel,
     LoHaModel,
@@ -84,7 +84,7 @@ PEFT_TYPE_TO_MODEL_MAPPING = {
     PeftType.P_TUNING: PromptEncoder,
     PeftType.PREFIX_TUNING: PrefixEncoder,
     PeftType.ADALORA: AdaLoraModel,
-    PeftType.BOFT: BOFTModel,
+    # PeftType.BOFT: BOFTModel,
     PeftType.ADAPTION_PROMPT: AdaptionPromptModel,
     PeftType.IA3: IA3Model,
     PeftType.OFT: OFTModel,
